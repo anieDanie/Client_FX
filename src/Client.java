@@ -47,7 +47,7 @@ public class Client {
     private List<Course> filteredSortedList;
 
     /**
-     * Le constructeur de la classe Client, qui initialise les attributs privés de la classe.
+     * Le constructeur de la classe Client, qui initialise la liste de cours et la réponse qui seront envoyées par le serveur.
      */
     public Client(){
         this.filteredSortedList = new ArrayList<>();
@@ -103,7 +103,7 @@ public class Client {
     }
 
     /**
-     * Cette méthode transmet au serveur la requête d'affichage des cours offerts à une session donnée.
+     * Cette méthode transmet au serveur la requête pour obtenir la liste des cours offerts à une session donnée.
      * <p>
      * Cette méthode formule et sérialise la requête textuelle pour la transmettre au serveur et désérialise la liste
      * des cours reçue, pour la rendre accessible à l'affichage.

@@ -19,10 +19,10 @@ import java.io.PrintWriter;
  * modifie les composantes de la scène en fonction des données modifiées dans la classe Client suite à la transmission
  * d'une requête.
  * <p>
- * La classe Controller correspond au Contrôleur dans le modèle Modèle-Vue-Contrôleur (MVC). Son rôle consiste à valider
- * les données saisies par l'utilisateur, nécessaires à la transmission des requêtes d'affichage de cours offerts pour
- * une session donnée ou d'inscription à un cours, par le client au programme serveur, et à faire afficher le résultat
- * de ces requêtes sur l'interface utilisateur.
+ * La classe Controller correspond au Contrôleur dans le modèle Modèle-Vue-Contrôleur (MVC). Son premier rôle consiste à valider
+ * les données saisies par l'utilisateur, nécessaires à la transmission des requêtes pour obtenir les cours offerts à
+ * une session donnée ou d'inscription à un cours, par le client, au programme serveur. Son deuxième rôle consiste à faire
+ * afficher le résultat de ces requêtes sur l'interface utilisateur.
  */
 public class Controller {
 
